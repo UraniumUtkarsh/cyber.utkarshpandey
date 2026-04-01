@@ -35,6 +35,10 @@ export default function Navbar(){
               Socials
             </a>
 
+            <a href="https://utkarshpandey.com/contact" target="_blank" className="hover:text-cyan-200 transition">
+              Contact-me
+            </a>
+
           </div>
 
           {/* MOBILE BUTTON */}
