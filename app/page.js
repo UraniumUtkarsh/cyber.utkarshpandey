@@ -111,15 +111,41 @@ export default function Home(){
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="border p-6 rounded-xl">
-              <h3 className="font-semibold">Steganography Web App</h3>
-              <p className="text-gray-500 mt-2">Hide data inside images using LSB technique.</p>
-            </div>
+            <a
+  href="https://python14developers.pythonanywhere.com/"
+  target="_blank"
+  className="block border p-6 rounded-xl hover:border-cyan-400 hover:shadow-lg hover:-translate-y-1 transition"
+>
+  <h3 className="font-semibold">
+    Steganography Web App
+  </h3>
 
-            <div className="border p-6 rounded-xl">
-              <h3 className="font-semibold">Network Packet Analysis Labs</h3>
-              <p className="text-gray-500 mt-2">Investigated suspicious traffic using Wireshark.</p>
-            </div>
+  <p className="text-gray-500 mt-2">
+    Hide data inside images using LSB technique.
+  </p>
+
+  <p className="text-cyan-400 text-sm mt-3">
+    Live Demo →
+  </p>
+</a>
+
+            <a
+  href="https://utkarshpandey.com/cybersecurity/reports/Report_SummerTraining.pdf"
+  target="_blank"
+  className="block border p-6 rounded-xl hover:border-cyan-400 hover:shadow-lg hover:-translate-y-1 transition"
+>
+  <h3 className="font-semibold">
+    Network Packet Analysis Labs
+  </h3>
+
+  <p className="text-gray-500 mt-2">
+    Investigated suspicious traffic using Wireshark.
+  </p>
+
+  <p className="text-cyan-400 text-sm mt-3">
+    View Report →
+  </p>
+</a>
 
             <div className="border p-6 rounded-xl">
               <h3 className="font-semibold">Maze Solving Robot</h3>
