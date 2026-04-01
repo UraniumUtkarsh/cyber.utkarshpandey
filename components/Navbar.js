@@ -27,16 +27,12 @@ export default function Navbar(){
             <Link href="/blogs" className="hover:text-cyan-200 transition">Blogs</Link>
             <Link href="/tools" className="hover:text-cyan-200 transition">Tools</Link>
 
-            <a href="https://utkarshpandey.com" target="_blank" className="hover:text-cyan-200 transition">
-              Dashboard
-            </a>
-
-            <a href="https://utkarshpandey.com/socials" target="_blank" className="hover:text-cyan-200 transition">
-              Socials
-            </a>
-
-            <a href="https://utkarshpandey.com/contact" target="_blank" className="hover:text-cyan-200 transition">
+            <a href="mailto:cyber@utkarshpandey.com" target="_blank" className="hover:text-cyan-200 transition">
               Contact-me
+            </a>
+
+            <a href="https://utkarshpandey.com" target="_blank" className="hover:text-cyan-200 transition">
+              Explore More
             </a>
 
           </div>
