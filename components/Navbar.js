@@ -58,8 +58,8 @@ export default function Navbar(){
         <div className="flex flex-col p-6 gap-6 text-lg">
 
           <Link href="/" onClick={()=>setOpen(false)}>Home</Link>
-          <Link href="/blogs" onClick={()=>setOpen(false)}>Blogs</Link>
           <Link href="/tools" onClick={()=>setOpen(false)}>Tools</Link>
+          <Link href="/blogs" onClick={()=>setOpen(false)}>Blogs</Link>
 
           <a href="https://utkarshpandey.com" target="_blank" onClick={()=>setOpen(false)}>
             Dashboard
