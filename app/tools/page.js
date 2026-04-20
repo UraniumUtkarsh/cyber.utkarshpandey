@@ -3,6 +3,10 @@ import UrlScanner from "@/components/tools/UrlScanner"
 import EmailPlus from "@/components/tools/EmailPlus"
 import PhishSense from "@/components/tools/PhishSense"
 
+export const metadata = {
+  title: "Cyber Tools | Cyber.UtkarshPandey"
+}
+
 export default function Tools(){
   return(
     <div className="min-h-screen bg-slate-950 text-white">
