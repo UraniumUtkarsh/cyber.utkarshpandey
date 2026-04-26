@@ -61,7 +61,7 @@ export default function Home() {
                 <p>• Packet Analysis → Wireshark</p>
                 <p>• Recon → Nmap & OSINT</p>
                 <p>• Malware Inspection → Sandbox</p>
-                <p>• Log Monitoring → SIEM Concepts</p>
+                <p>• Log Monitoring → SPLUNK</p>
               </div>
 
               <div className="mt-6 h-2 bg-slate-800 rounded-full overflow-hidden">
