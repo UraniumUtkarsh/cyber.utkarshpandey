@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cyber.UtkarshPandey | Home",
+  title: "Cyber.Utkarsh | Home",
   description: "Cybersecurity portfolio of Utkarsh Pandey showcasing hands-on projects in network security, digital forensics, SOC operations, vulnerability assessment, and threat analysis. Explore cybersecurity blogs, tools, labs, and real-world learning experiences. UraniumUtkarsh. utkarshpandey.com",
 };
 
