@@ -14,7 +14,7 @@ export default function UrlScanner() {
     setLoading(true)
     setResult(null)
     setError("")
-    setStatusMsg("Submitting URL...")
+    setStatusMsg("Processing URL...")
 
     try {
       // STEP 1: submit URL
@@ -29,7 +29,7 @@ export default function UrlScanner() {
       const data = await res.json()
 
       if (!data?.data?.id) {
-        throw new Error("Invalid response from VirusTotal")
+        throw new Error("Invalid response from Backend, Retry after some time")
       }
 
       const analysisId = data.data.id
@@ -85,7 +85,7 @@ export default function UrlScanner() {
       </h2>
 
       <p className="text-sm text-slate-400 mb-4">
-        Scan URLs using VirusTotal API
+        Scan your URL and get the score report
       </p>
 
       <input
