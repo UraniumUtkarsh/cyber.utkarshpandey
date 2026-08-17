@@ -1,3 +1,8 @@
+---
+title: "Understanding Windows Security Updates"
+date: "17 August, 2026"
+description: "How Windows security patches are developed, tested, and deployed"
+---
 # Windows Security Updates: What They Are, How Microsoft Creates Them, Tests Them, and What They Protect You From
 
 Every month, millions of Windows computers receive updates. For many users, the process is almost invisible: a notification appears, the computer downloads some files, and after a restart, Windows is "up to date."
